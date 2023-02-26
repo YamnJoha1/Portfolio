@@ -998,6 +998,9 @@ ul {
                 }
             }
         }
+        .jo p{
+            margin-top: 10px;
+        }
         .project-box{
             height: fit-content;
             @include grid(145px);
@@ -1351,7 +1354,7 @@ ul {
     .information,
     .projects,
     .contact{
-        padding: 30px ;
+        padding: 65px 30px 20px 30px ;
         .container{
             height: 100%;
             width: 100%;
@@ -1361,7 +1364,7 @@ ul {
     .main-title{
     margin: 0 auto 60px;
     padding: 0 10px;
-    font-size: 22px;
+    font-size: 20px;
     }
     
     .header{
@@ -1412,8 +1415,9 @@ ul {
             #menu-btn{
                 display: inline-block;
                 margin-left: 20px;
+                width: 25px;
                 &.fa-times{
-                    transform: rotate(180deg);
+                    transform: rotate(180deg);text-align: center;
                 }
             }
             .toggle-btn .toggle i{
@@ -1563,6 +1567,7 @@ ul {
                     .swiper-pagination-bullet{
                         width: 5px;
                         height: 5px;
+                        margin: 0 2px;
                     }                    
                 }
             }
@@ -1605,6 +1610,7 @@ ul {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding: 0 20px;
             .box{
                 width: 100%;
                 text-align: center;

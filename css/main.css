@@ -1097,6 +1097,9 @@ ul {
   margin-left: 0px;
   text-align: left;
 }
+.footer .container .jo p {
+  margin-top: 10px;
+}
 .footer .container .project-box {
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -1391,7 +1394,7 @@ ul {
 .information,
 .projects,
 .contact {
-    padding: 30px;
+    padding: 65px 30px 20px 30px;
   }
   .welcome .container,
 .about .container,
@@ -1404,7 +1407,7 @@ ul {
   .main-title {
     margin: 0 auto 60px;
     padding: 0 10px;
-    font-size: 22px;
+    font-size: 20px;
   }
   .header {
     height: 60px;
@@ -1464,10 +1467,12 @@ ul {
   .header .right-content #menu-btn {
     display: inline-block;
     margin-left: 20px;
+    width: 25px;
   }
   .header .right-content #menu-btn.fa-times {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg);
+    text-align: center;
   }
   .header .right-content .toggle-btn .toggle i {
     line-height: 13px;
@@ -1617,6 +1622,7 @@ ul {
   .projects .container .tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
     width: 5px;
     height: 5px;
+    margin: 0 2px;
   }
   .contact .container {
     -webkit-box-orient: vertical;
@@ -1663,6 +1669,7 @@ ul {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding: 0 20px;
   }
   .footer .container .box {
     width: 100%;
