@@ -136,7 +136,7 @@ ul {
 .main-title {
   margin: 0 auto 60px;
   padding: 5px 15px;
-  font-size: 24px;
+  font-size: 20px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -156,9 +156,9 @@ ul {
 .main-title h2::after {
   content: "";
   position: absolute;
-  width: 50%;
-  height: 1px;
-  bottom: -2px;
+  width: 60%;
+  height: 1.5px;
+  bottom: -7px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -167,13 +167,13 @@ ul {
 
 .btn {
   margin-top: 10px;
-  padding: 10px 20px;
+  padding: 8px 12px;
   color: #225c9a;
   border: 1px solid #225c9a;
   border-radius: 5px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  font-size: 20px;
+  font-size: 16px;
 }
 .btn:hover {
   border-color: #1d72cd;
@@ -182,8 +182,8 @@ ul {
 
 .btn-2 {
   padding: 5px 10px;
-  font-size: 18px;
-  margin-top: 10px;
+  font-size: 16px;
+  margin-top: -4px;
   background-color: #225c9a;
   color: #cfdfea;
   border-radius: 6px;
@@ -203,8 +203,9 @@ ul {
 
 .header {
   position: fixed;
-  height: 75px;
+  height: 70px;
   width: 100%;
+  padding: 0 20px;
   background-color: #0a0a0a;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -232,12 +233,12 @@ ul {
 .header .left-content h1 a {
   padding: 10px;
   margin: 10px 0;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: bolder;
   color: #1d72cd;
 }
 .header .left-content hr {
-  height: 50px;
+  height: 40px;
   margin-top: 25px;
   margin-left: 15px;
   opacity: 0.6;
@@ -257,14 +258,14 @@ ul {
 }
 .header .left-content ul a {
   margin: 0 5px;
-  font-size: 18px;
+  font-size: 16px;
 }
-.header .left-content ul a i {
+.header .left-content ul a i, .header .left-content ul a svg {
   color: #225c9a;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
-.header .left-content ul a:hover i {
+.header .left-content ul a i:hover, .header .left-content ul a svg:hover {
   color: #1d72cd;
 }
 .header #menu-btn {
@@ -277,7 +278,7 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 .header .right-content ul {
   display: -webkit-box;
@@ -287,7 +288,7 @@ ul {
 .header .right-content ul a {
   display: inline-block;
   padding: 5px 12px;
-  font-size: 21px;
+  font-size: 19px;
   font-weight: bold;
   color: #225c9a;
   -webkit-transition: 0.3s;
@@ -323,7 +324,7 @@ ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .header .right-content .toggle-btn .toggle {
   cursor: pointer;
@@ -338,10 +339,10 @@ ul {
       -ms-flex-align: center;
           align-items: center;
   width: 60px;
-  height: 30px;
+  height: 32px;
   border-radius: 10px;
 }
-.header .right-content .toggle-btn .toggle i {
+.header .right-content .toggle-btn .toggle i, .header .right-content .toggle-btn .toggle svg {
   height: 50%;
   color: #cfdfea;
   font-size: 22px;
@@ -403,14 +404,12 @@ ul {
 }
 .light .welcome .container .content {
   color: #0a0a0a;
-  font-weight: bold;
 }
 .light .welcome .container .content .text-3 {
   color: #0a0a0a;
 }
 .light .about .container .content p {
   color: #0a0a0a;
-  font-weight: bold;
 }
 .light .information .container .card-info {
   -webkit-box-shadow: 4px -2px 0px 0px rgba(207, 223, 234, 0.7098039216);
@@ -427,7 +426,6 @@ ul {
 }
 .light .information .container .card-info-container .educition .box span {
   color: #0a0a0a;
-  font-weight: bold;
 }
 .light .information .container .card-info-container .languesh {
   -webkit-box-shadow: 4px 0px 0px 0px rgba(207, 223, 234, 0.7098039216);
@@ -463,24 +461,23 @@ ul {
 .light .footer {
   border-top: 1px solid rgba(10, 10, 10, 0.7843137255);
 }
-.light .footer .container .box .social a {
+.light .footer .container .box .social a, .light .footer .container .box svg {
   color: rgba(10, 10, 10, 0.7843137255);
   background-color: #f4f4f4;
-  margin: 0;
-  font-size: 20px;
+  font-size: 22px;
 }
 .light .footer .container .box p {
   color: #0a0a0a;
 }
-.light .footer .container .box ul li a {
+.light .footer .container .box ul li a, .light .footer .container .box ul li svg {
   color: rgba(10, 10, 10, 0.7843137255);
   font-weight: bold;
 }
-.light .footer .container .box ul li a:hover {
+.light .footer .container .box ul li a:hover, .light .footer .container .box ul li svg:hover {
   color: #0a0a0a;
 }
-.light .footer .container .box .con-box p {
-  font-weight: bold;
+.light .footer .container .box .con-box svg {
+  background-color: transparent;
 }
 .light .footer .container .project-box img {
   -webkit-box-shadow: 1px 1px 1px 1px rgba(10, 10, 10, 0.7843137255);
@@ -509,25 +506,27 @@ ul {
 }
 
 .welcome .container {
-  margin-top: 120px;
+  margin-top: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 100px;
 }
 .welcome .container .content {
   color: #cfdfea;
 }
 .welcome .container .content .text-1 {
-  font-size: 27px;
+  font-size: 24px;
   letter-spacing: 1px;
 }
 .welcome .container .content .text-2 {
-  font-size: 75px;
+  font-size: 57px;
   font-weight: 600;
   margin-left: -3px;
   color: #1d72cd;
@@ -541,8 +540,8 @@ ul {
 }
 .welcome .container .image {
   position: relative;
-  width: 420px;
-  height: 420px;
+  width: 380px;
+  height: 380px;
   background-color: #1d72cd;
   z-index: -1;
   border-radius: 50% 90% 60% 80%;
@@ -552,7 +551,7 @@ ul {
 }
 .welcome .container .image img {
   position: absolute;
-  width: 350px;
+  width: 310px;
   bottom: -10px;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -572,13 +571,13 @@ ul {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.welcome .go-down i {
+.welcome .go-down svg {
   -webkit-animation: bousing 3s infinite;
           animation: bousing 3s infinite;
 }
 
 .about {
-  padding-top: 80px;
+  padding-top: 100px;
   position: relative;
 }
 .about .container {
@@ -590,14 +589,14 @@ ul {
 }
 .about .container .cart {
   background-color: #1d72cd;
-  min-width: 300px;
-  height: 400px;
+  min-width: 275px;
+  height: 375px;
   border-radius: 10px;
   position: relative;
 }
 .about .container .cart img {
   position: absolute;
-  width: 300px;
+  width: 275px;
   right: 0;
   bottom: 0;
   border-radius: 8px;
@@ -607,7 +606,7 @@ ul {
 }
 .about .container .content h2 {
   color: #1d72cd;
-  font-size: 30px;
+  font-size: 27px;
   font-weight: bold;
   position: relative;
 }
@@ -655,7 +654,7 @@ ul {
 .information .container .card-info .main-title h4 {
   position: relative;
   color: #cfdfea;
-  font-size: 23px;
+  font-size: 20px;
 }
 .information .container .card-info .main-title h4::after {
   content: "";
@@ -679,22 +678,22 @@ ul {
       justify-content: space-around;
   background-color: transparent;
 }
-.information .container .card-info .box i, .information .container .card-info .box .txt {
-  font-size: 32px;
+.information .container .card-info .box i, .information .container .card-info .box .txt, .information .container .card-info .box svg {
+  font-size: 24px;
   color: #1d72cd;
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   text-align: center;
   position: relative;
 }
 .information .container .card-info .box .txt {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 18px;
 }
 .information .container .card-info .box .progress {
   position: relative;
   width: 190px;
-  height: 2px;
+  height: 1.5px;
   border: 1px solid #225c9a;
   bottom: -2px;
 }
@@ -702,21 +701,21 @@ ul {
   position: absolute;
   left: 0;
   bottom: -1px;
-  height: 3px;
+  height: 1.5px;
   background-color: #1d72cd;
   -webkit-transition: width 0.3s linear;
   transition: width 0.3s linear;
 }
 .information .container .card-info .box .progress > span::after {
   content: "";
-  height: 12px;
-  width: 12px;
+  height: 8px;
+  width: 8px;
   border: 1px solid #cfdfea;
   background-color: #1d72cd;
   border-radius: 50%;
   position: absolute;
   top: -5px;
-  right: -10px;
+  right: 0;
 }
 .information .container .card-info:hover {
   -webkit-transform: scale(1.02);
@@ -750,12 +749,14 @@ ul {
 .information .container .card-info-container .educition .box h3 {
   color: #1d72cd;
   margin: 5px 0;
+  font-size: 16px;
   letter-spacing: 1px;
 }
 .information .container .card-info-container .educition .box span {
   text-align: center;
   color: #cfdfea;
   line-height: 1.5;
+  font-size: 16px;
 }
 .information .container .card-info-container .languesh {
   -webkit-box-shadow: 4px 0px 0px 0px rgba(0, 23, 48, 0.4117647059);
@@ -764,122 +765,91 @@ ul {
 .information .container .card-info-container .languesh .box h3 {
   color: #1d72cd;
   margin: 0;
-  font-size: 20px;
+  font-size: 16px;
 }
 .information .container .card-info-container .languesh .box span {
   color: #cfdfea;
   margin-bottom: 3px;
+  font-size: 16px;
 }
 
-.projects {
-  padding-top: 80px;
-  position: relative;
-}
 .projects .container {
-  max-width: 100%;
-  padding: 0 10px;
-  margin: 0 auto;
-}
-.projects .container .tranding-slider {
-  height: 450px;
-  padding: 20px 0;
-  position: relative;
-}
-.projects .container .tranding-slider .tranding-slide {
-  width: 750px;
-  height: 300px;
-  position: relative;
-}
-.projects .container .tranding-slider .tranding-slide .tranding-slide-img img {
-  width: 750px;
-  border-radius: 10px;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.projects .container .tranding-slider .tranding-slide .tranding-slide-content-bottom {
-  position: absolute;
-  bottom: -100px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  width: 100%;
-  text-align: center;
-  border-radius: 10px;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-.projects .container .tranding-slider .tranding-slide .tranding-slide-content-bottom .btn-2 {
-  position: absolute;
-  top: -10%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  background-color: #225c9a;
-}
-.projects .container .tranding-slider .tranding-slide .tranding-slide-content-bottom .btn-2:hover {
-  background-color: #1d72cd;
-}
-.projects .container .tranding-slider .tranding-slide .tranding-slide-content-bottom .icons {
-  color: #1d72cd;
-  font-size: 35px;
-  margin-top: 26px;
-}
-.projects .container .tranding-slider .tranding-slide .tranding-slide-content-bottom .icons i {
-  border-radius: 10px;
-  width: 40px;
-}
-.projects .container .swiper-slide-shadow-left,
-.projects .container .swiper-slide-shadow-right {
-  display: none;
-}
-.projects .container .tranding-slider-control {
-  position: relative;
-  bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 50px;
 }
-.projects .container .tranding-slider-control .swiper-button-next {
-  left: 30% !important;
-  -webkit-transform: translateX(-30%) !important;
-          transform: translateX(-30%) !important;
+.projects .container .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 50px;
 }
-.projects .container .tranding-slider-control .swiper-button-prev {
-  left: 70% !important;
-  -webkit-transform: translateX(-70%) !important;
-          transform: translateX(-70%) !important;
+.projects .container .title span {
+  background-color: #225c9a;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: #cfdfea;
+  border: 1px solid #225c9a;
+  cursor: pointer;
 }
-.projects .container .tranding-slider-control .slider-arrow {
-  width: 60px;
-  height: 60px;
-  left: 42%;
-  -webkit-transform: translateX(-42%);
-          transform: translateX(-42%);
-}
-.projects .container .tranding-slider-control .slider-arrow::after {
-  content: "";
-}
-.projects .container .tranding-slider-control .slider-arrow ion-icon {
-  font-size: 30px;
+.projects .container .title span:hover {
+  background-color: transparent;
   color: #1d72cd;
 }
-.projects .container .tranding-slider-control .swiper-pagination {
+.projects .container .container-card {
+  width: 680px;
+  height: 280px;
+  -webkit-perspective: 800;
+          perspective: 800;
+}
+.projects .container .container-card:hover > .card {
+  cursor: pointer;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+.projects .container .container-card .card {
+  height: 100%;
+  width: 100%;
   position: relative;
-  width: 150px;
-  bottom: -10px;
+  -webkit-transition: -webkit-transform 1.5s;
+  transition: -webkit-transform 1.5s;
+  transition: transform 1.5s;
+  transition: transform 1.5s, -webkit-transform 1.5s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
 }
-.projects .container .tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
-  background-color: #cfdfea;
+.projects .container .container-card .card .front, .projects .container .container-card .card .back {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+          box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
 }
-.projects .container .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #1d72cd;
+.projects .container .container-card .card .front {
+  background-image: url(../images/projects/Jo-Company.png);
+}
+.projects .container .container-card .card .back {
+  background: linear-gradient(10deg, #1d72cd, #0a0a0a);
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
 }
 
 .contact {
@@ -890,6 +860,9 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   margin: 0 50px;
 }
@@ -902,8 +875,10 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
-  margin-left: 50px;
 }
 .contact .container .box form h2 {
   color: #1d72cd;
@@ -970,23 +945,28 @@ ul {
   display: -ms-flexbox;
   display: flex;
   padding: 10px 0;
+  margin-left: 50px;
+  width: 40%;
 }
-.con-box i {
-  min-width: 60px;
-  height: 60px;
+.con-box i, .con-box svg {
+  min-width: 25px;
+  height: 25px;
   color: #1d72cd;
   text-align: center;
   margin-top: 40px;
-  font-size: 27px;
+  margin-right: 20px;
+  font-size: 25px;
 }
 .con-box .text {
   margin-left: 10px;
 }
 .con-box .text h3 {
   color: #1d72cd;
+  font-size: 18px;
 }
 .con-box .text p {
   color: #cfdfea;
+  font-size: 16px;
 }
 
 .footer {
@@ -994,9 +974,12 @@ ul {
 }
 .footer .container {
   width: 100%;
-  display: -ms-grid;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
   padding: 0 100px;
   margin-bottom: 0;
 }
@@ -1011,24 +994,22 @@ ul {
 .footer .container .box h2 a {
   padding: 10px;
   margin: 10px 0px 10px 30px;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bolder;
   color: #1d72cd;
 }
-.footer .container .box .social a {
-  height: 35px;
-  width: 35px;
-  line-height: 35px;
-  font-size: 18px;
+.footer .container .box .social a, .footer .container .box svg {
+  height: 16px;
+  width: 16px;
   color: #cfdfea;
   background-color: #111;
   border-radius: 50%;
-  margin-right: 0.5rem;
-  text-align: center;
+  margin-left: 18px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  cursor: pointer;
 }
-.footer .container .box .social a:hover {
+.footer .container .box .social a:hover, .footer .container .box svg:hover {
   color: #225c9a;
 }
 .footer .container .box p {
@@ -1036,7 +1017,7 @@ ul {
   line-height: 1.8;
   margin-top: 30px;
   width: 200px;
-  font-size: 15px;
+  font-size: 14px;
 }
 .footer .container .box ul {
   display: -webkit-box;
@@ -1062,18 +1043,18 @@ ul {
   padding-left: 10px;
 }
 .footer .container .box ul li a {
-  font-size: 18px;
+  font-size: 16px;
   color: rgba(207, 223, 234, 0.7098039216);
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 .footer .container .box ul li a::before {
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 6 Free";
   content: "\f101";
   font-weight: 600;
   margin-right: 10px;
   color: #1d72cd;
-  font-size: 14px;
+  font-size: 12px;
 }
 .footer .container .box ul li a:hover::before {
   width: 50%;
@@ -1085,16 +1066,16 @@ ul {
 }
 .footer .container .box .con-box {
   padding: 0;
-  margin-left: -20px;
+  margin-left: -50px;
+  width: 300px;
 }
-.footer .container .box .con-box i {
-  min-width: 40px;
-  height: 40px;
+.footer .container .box .con-box svg {
+  min-width: 20px;
+  height: 20px;
   margin-top: 35px;
-  font-size: 20px;
+  color: #1d72cd;
 }
 .footer .container .box .con-box p {
-  margin-left: 0px;
   text-align: left;
 }
 .footer .container .jo p {
@@ -1106,8 +1087,10 @@ ul {
   height: fit-content;
   display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: 5px;
+  max-width: 300px;
+  overflow: hidden;
 }
 .footer .container .project-box img {
   width: 130px;
@@ -1126,23 +1109,23 @@ ul {
   color: #cfdfea;
   text-align: center;
   border-top: 1px solid rgba(207, 223, 234, 0.7098039216);
-  padding: 25px 0;
+  padding: 15px 0;
   margin-bottom: 0;
 }
 .footer .copyright span {
   color: #1d72cd;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @media (max-width: 1199px) {
   .welcome .container .content .text-1 {
-    font-size: 22px;
+    font-size: 20px;
   }
   .welcome .container .content .text-2 {
-    font-size: 60px;
+    font-size: 40px;
   }
   .welcome .container .content .text-3 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .about .container .cart {
     min-width: 250px;
@@ -1201,23 +1184,23 @@ ul {
 @media (max-width: 991px) {
   .btn {
     padding: 5px 15px;
-    font-size: 18px;
+    font-size: 16px;
   }
   .scroller {
     display: none;
   }
   .header .right-content li a {
-    font-size: 20px;
+    font-size: 18px;
     padding: 0 15px;
   }
   .welcome .container .content .text-1 {
     font-size: 18px;
   }
   .welcome .container .content .text-2 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .welcome .container .content .text-3 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 15px;
   }
   .welcome .container .image {
@@ -1243,7 +1226,7 @@ ul {
     margin-top: -20px;
   }
   .about .container .content h2 {
-    font-size: 27px;
+    font-size: 18px;
   }
   .about .container .content p {
     margin-bottom: 20px;
@@ -1271,10 +1254,10 @@ ul {
     margin: 7px;
   }
   .information .container .card-info .box i, .information .container .card-info .box .txt {
-    font-size: 27px;
+    font-size: 22px;
     color: #1d72cd;
-    width: 27px;
-    height: 27px;
+    width: 22px;
+    height: 22px;
   }
   .information .container .card-info .box .txt {
     font-size: 18px;
@@ -1301,7 +1284,7 @@ ul {
     width: 520px;
   }
   .projects .container .tranding-slider .tranding-slide .tranding-slide-content-bottom .icons {
-    font-size: 27px;
+    font-size: 25px;
     padding: 10px;
   }
   .projects .container .tranding-slider .tranding-slide .tranding-slide-content-bottom .icons i {
@@ -1315,7 +1298,7 @@ ul {
     height: 40px;
   }
   .projects .container .tranding-slider-control .slider-arrow ion-icon {
-    font-size: 27px;
+    font-size: 25px;
   }
   .projects .container .tranding-slider-control .swiper-pagination {
     bottom: 2px;
@@ -1339,7 +1322,7 @@ ul {
   .con-box i {
     min-width: 40px;
     height: 40px;
-    font-size: 25px;
+    font-size: 22px;
   }
   .con-box .text h3 {
     margin-bottom: 0;
@@ -1356,13 +1339,13 @@ ul {
   .footer .container .box h2 a {
     padding-bottom: 10px;
     margin: auto;
-    font-size: 37px;
+    font-size: 27px;
   }
   .footer .container .box .social a {
-    height: 27px;
-    width: 27px;
-    line-height: 27px;
-    font-size: 16px;
+    height: 22px;
+    width: 22px;
+    line-height: 22px;
+    font-size: 22px;
   }
   .footer .container .box p {
     margin-top: 10px;
@@ -1407,7 +1390,7 @@ ul {
   .main-title {
     margin: 0 auto 60px;
     padding: 0 10px;
-    font-size: 20px;
+    font-size: 16px;
   }
   .header {
     height: 60px;
@@ -1417,7 +1400,7 @@ ul {
   }
   .header .left-content h1 a {
     padding: 0px;
-    font-size: 37px;
+    font-size: 27px;
   }
   .header .left-content hr {
     height: 30px;
@@ -1497,13 +1480,14 @@ ul {
             transform: translateY(-50%);
   }
   .welcome .container .content .text-1 {
-    font-size: 20px;
+    font-size: 16px;
   }
   .welcome .container .content .text-2 {
-    font-size: 45px;
+    font-size: 27px;
+    margin: 5px 0;
   }
   .welcome .container .content .text-3 {
-    margin-bottom: 22px;
+    margin-bottom: 18px;
   }
   .welcome .container .image {
     display: none;
@@ -1530,21 +1514,21 @@ ul {
   }
   .about .container .cart {
     margin: auto;
-    width: 280px;
-    height: 350px;
+    width: 250px;
+    height: 320px;
   }
   .about .container .cart img {
-    width: 280px;
+    width: 250px;
   }
   .about .container .content {
     width: 100%;
     margin: auto;
   }
   .about .container .content h2 {
-    font-size: 27px;
+    font-size: 25px;
   }
   .about .container .content p {
-    font-size: 17px;
+    font-size: 16px;
     margin-top: -10px;
     margin-bottom: 15px;
   }
@@ -1559,13 +1543,13 @@ ul {
   .information .container .card-info .main-title {
     padding-top: 5px;
   }
-  .information .container .card-info .box i, .information .container .card-info .box .txt {
-    font-size: 25px;
-    width: 25px;
-    height: 25px;
+  .information .container .card-info .box i, .information .container .card-info .box svg {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
   }
   .information .container .card-info .box .txt {
-    font-size: 18px;
+    font-size: 16px;
   }
   .information .container .card-info .box .progress {
     width: 155px;
@@ -1574,6 +1558,15 @@ ul {
     width: 230px;
     display: block;
     margin: auto;
+  }
+  .information .container .card-info-container .educition .box span {
+    font-size: 15px;
+  }
+  .information .container .card-info-container .languesh .box h3 {
+    font-size: 15px;
+  }
+  .information .container .card-info-container .languesh .box span {
+    font-size: 14px;
   }
   .projects {
     min-height: -webkit-fit-content;
@@ -1641,7 +1634,7 @@ ul {
     margin-left: auto;
   }
   .contact .container .box form h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .contact .container .box form .input-box input:not(:last-child),
 .contact .container .box form .input-box textarea {
@@ -1652,8 +1645,19 @@ ul {
     font-size: 12px;
   }
   .con-box {
-    padding: 0px 0;
     width: 100%;
+    margin: 0;
+  }
+  .con-box i, .con-box svg {
+    min-width: 18px;
+    height: 18px;
+    font-size: 18px;
+  }
+  .con-box .text h3 {
+    font-size: 16px;
+  }
+  .con-box .text p {
+    font-size: 15px;
   }
   .footer .container {
     display: -webkit-box;
@@ -1678,11 +1682,11 @@ ul {
   .footer .container .box h2 a {
     padding-bottom: 20px;
   }
-  .footer .container .box .social a {
-    height: 25px;
-    width: 25px;
+  .footer .container .box .social a, .footer .container .box svg {
+    height: 16px;
+    width: 16px;
     line-height: 25px;
-    font-size: 14px;
+    margin: 5px;
   }
   .footer .container .box p {
     margin: 10px auto;
@@ -1708,10 +1712,10 @@ ul {
     margin: 0;
   }
   .footer .copyright {
-    padding: 10px 0;
-    font-size: 14px;
+    padding: 7px 0;
+    font-size: 12px;
   }
   .footer .copyright span {
-    font-size: 14px;
+    font-size: 12px;
   }
 }

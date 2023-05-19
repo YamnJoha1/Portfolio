@@ -45,9 +45,6 @@ toggle.addEventListener("change", () => {
 
 });
 
-
-
-
 var TrandingSlider = new Swiper('.tranding-slider', {
     effect: 'coverflow',
     grabCursor: true,
